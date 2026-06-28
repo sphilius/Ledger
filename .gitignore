@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+*.tsbuildinfo
+
+# Local env files — never commit real secrets. .env.example is the template.
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
